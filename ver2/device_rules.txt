@@ -1,0 +1,5 @@
+#idVendor & idProduct should be confirmed
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1234", ATTRS{idProduct}=="5678", SYMLINK+="/dev/ttyACM1"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1234", ATTRS{idProduct}=="5678", SYMLINK+="/dev/ttyACM2"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1234", ATTRS{idProduct}=="5678", SYMLINK+="/dev/ttyACM3"
